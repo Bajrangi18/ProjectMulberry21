@@ -1,0 +1,37 @@
+#firstScreen {
+    width: 95%;
+    background-color:#3f8161;
+}
+
+
+
+.parent-div{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    }
+    
+    .divOne { grid-area: 1 / 1 / 5 / 6; 
+        background-color: #f9f8f8;
+        border:7px solid #3f8161;
+        outline:6px solid #f9f8f8;
+        border-radius: 10px;
+        width: 100%;
+        }
+    .divTwo { grid-area: 1 / 6 / 3 / 8;
+              background-color: #f9f8f8;
+              border:7px solid #3f8161;
+              outline:6px solid #f9f8f8;
+              border-radius: 10px;
+              width: 100%;
+    }
+    .divThree { grid-area: 3 / 6 / 5 / 8;
+        background-color: #f9f8f8;
+        border:7px solid #3f8161;
+        outline:6px solid #f9f8f8;
+        border-radius: 10px;
+        width: 100%; }
+    
+    

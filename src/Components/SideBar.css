@@ -1,0 +1,36 @@
+#nav {
+    height: 100vh;
+    background-color: #f9f8f8;
+    display: block;
+}
+.btn {
+    background-color: #f9f8f8;
+    font-weight: 600;
+    font-size: 1.09vw;
+    transition: 300ms;
+}
+img {
+    padding-right: 15px;
+    padding-bottom: 5px;
+    height: 40px;
+    scale: 1;
+    transition: 500ms;
+}
+.container {
+    padding-left: 1%;
+    width: 85%;
+    background-color: #f9f8f8;
+    border-radius: 5px;
+}
+
+#dash_button:hover {
+    color: #3f8161;
+}
+
+#remote_button:hover {
+    color: #3f8161;
+}
+
+#detect_button:hover {
+    color: #3f8161;
+}
